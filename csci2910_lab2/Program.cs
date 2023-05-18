@@ -93,7 +93,7 @@ namespace csci2910_lab2
                 Console.WriteLine("You must enter a number!\n");
             }
 
-            Console.WriteLine("Thanks for using the program!\n\n");
+            Console.WriteLine("Thanks for using the add numbers portion!\n\n");
         }
 
         /// <summary>
@@ -125,7 +125,7 @@ namespace csci2910_lab2
                 Console.WriteLine("Enter a number you would like to see a multiplication table for and what number you want to mulitply to.\n");
             }
 
-            Console.WriteLine("Thanks for using the program!\n\n");
+            Console.WriteLine("Thanks for using the multiplication table!\n\n");
         }
 
         /// <summary>
@@ -157,7 +157,7 @@ namespace csci2910_lab2
             table.AddRow("decimal", sizeof(decimal), decimal.MinValue, decimal.MaxValue);
             table.Write(Format.Minimal);
 
-            Console.WriteLine("\nThanks for using the program!\n");
+            Console.WriteLine("\nThanks for viewing this table!\n");
         }
 
         /// <summary>
@@ -251,6 +251,7 @@ namespace csci2910_lab2
                     if (exit == "esc")
                     {
                         escape = true;
+                        Console.WriteLine("Thanks for using this calculator!\n\n");
                     }
                     Console.WriteLine();
                 }
@@ -261,6 +262,7 @@ namespace csci2910_lab2
                     if (exit == "esc")
                     {
                         escape = true;
+                        Console.WriteLine("Thanks for using this calculator!\n\n");
                     }
                     Console.WriteLine();
                 }
